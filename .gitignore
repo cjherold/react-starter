@@ -1,0 +1,7 @@
+
+_notes
+build
+node_modules
+.env
+.vscode-test
+.DS_Store

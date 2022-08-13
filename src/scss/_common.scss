@@ -1,0 +1,7 @@
+// Styles that apply everywhere (example: a button, or color theme)
+
+@import './variables';
+
+body {
+    background-color: $custom-background-theme;
+}

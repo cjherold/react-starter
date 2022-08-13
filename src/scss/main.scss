@@ -1,0 +1,15 @@
+// Import all used files here. Files begging with _ could be ignored with webpack eventually
+
+// 3rd party styles
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+@import 'izitoast/dist/css/iziToast.min.css';
+
+// common.scss is for styles that apply everywhere (example: a button)
+@import './common.scss';
+
+// Import all styles
+@import './_styles/topnav.scss';
+@import './_styles/footer.scss';
+@import './_styles/errors.scss';
+@import './_styles/home.scss';
