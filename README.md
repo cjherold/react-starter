@@ -2,7 +2,8 @@
 ###### This is a basic template for starting a react project with a custom folder structure. My api-starter project works great with this. Using node v16.14.0
 
 ### What's included?
-* A extensible folder structure
+* Just enough styles and examples to get the basic idea of how things work
+* An extensible folder structure
 * Some vscode settings and an extensions list
 * A simple example page with a little bit of routing
 * A bunch of packages that I like to use.
@@ -10,6 +11,7 @@
     * bootstrap-react
     * bootstrap-icons
     * izitoast
+    * sweetalert 2
     * jquery
     * serve
     * sass

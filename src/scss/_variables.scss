@@ -1,4 +1,17 @@
 // Variables to be used with other scss files
 
+// Sawarabi Mincho
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+// Concert One
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+
+$formal-font: 'Sawarabi Mincho', serif;
+$informal-font: 'Concert One', cursive;
+
+$navbar-minheight: 50px;
+$footer-minheight: 50px;
+$content-minheight: calc(100vh - $navbar-minheight - $footer-minheight);
+
 $custom-background-theme: rgb(93, 108, 162);
 $reg-boxshadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;

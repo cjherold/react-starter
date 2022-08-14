@@ -8,7 +8,9 @@ export default function MainLayout({ pageName, children }) {
 	return (
 		<div id={`${pageName}-page`}>
 			<TopNav />
-			{children}
+			<div className="layout-content">
+				{children}
+			</div>
 			<Footer />
 		</div>
 	);
