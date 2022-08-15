@@ -3,5 +3,6 @@ _notes
 build
 node_modules
 .env
+.vscode
 .vscode-test
 .DS_Store

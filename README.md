@@ -41,7 +41,7 @@ npm run prod
 
 #### Exports
 * My ./src/pages and ./src/components have index.js files that mostly just export all of the contents from one place.
-* This export styles makes it easy to call components and also hide sub components that should only be used as part of a larger component.
+* This export practice makes it easy to call components and also hide sub components that should only be used as part of a larger component.
 * For example:
 ```js
 // Everything can just be exported from ./src/components instead of tracking down each place things are stored
@@ -61,3 +61,8 @@ import { TopNav, HomeHero, CoolButton } from './components';
 #### Components
 * My components folder is set up so that each page can have it's own folder.
 * For example, a page component ./src/pages/Home could have a folder in ./src/components/_Home where all its individual components could be organized.
+
+#### Eslint/Prettier
+* I added a .eslintrc file to help format everything automatically.
+* If it's annoying you feel free to remove it.
+

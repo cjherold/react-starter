@@ -1,5 +1,5 @@
-import Home from './Home';
-import Error404 from './Errors/Error404';
+import Home from "./Home";
+import Error404 from "./Errors/Error404";
 
 export {
     Home,
