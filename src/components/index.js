@@ -7,7 +7,7 @@ import HomeHero from './_Home/HomeHero';
  *  Export all components and nested components from here
  */
 export {
-    Footer,
-    TopNav,
-    HomeHero,
+	Footer,
+	TopNav,
+	HomeHero,
 }
